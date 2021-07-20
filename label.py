@@ -41,3 +41,4 @@ for filename in file:
             df.loc[i, "Label"] = "From Others Computer"
     
     df.to_csv("./csv/" + filename, index=False)
+    df.to_json("./json/" + filename[:-4] + ".json")
