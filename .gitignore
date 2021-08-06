@@ -1,6 +1,6 @@
 /logs/
 pcap/
 csv/
-json/
+json/*
 CICFlowMeters/CICFlowMeter_repo/
 CICFlowMeters/CICFlowMeter_iPAS/
